@@ -5,7 +5,7 @@ public class GroceriesDiscount {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
-		
+	
 		// here are the variables:
 		double total;
 		double discount;
@@ -54,7 +54,7 @@ public class GroceriesDiscount {
 			System.out.println("You get a discount coupon of $" +String.format("%.2f", discount)+ " to your purchase! (14% discount");
 			System.out.println("");
 			
-			//this is what breaks you out of the loop
+			//this is what breaks you out of the loop (test2)
 			} else if (total == 0) {
 				
 			System.out.println("Thank you for shopping with us!");
