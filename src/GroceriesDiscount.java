@@ -6,7 +6,7 @@ public class GroceriesDiscount {
 		
 		Scanner in = new Scanner(System.in);
 		
-		// here are the variables
+		// here are the variables:
 		double total;
 		double discount;
 		boolean transaction;
